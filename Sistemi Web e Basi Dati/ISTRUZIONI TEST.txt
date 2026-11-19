@@ -1,0 +1,13 @@
+scaricare xampp a questo link: https://www.apachefriends.org/it/download.html. Una volta terminato il download la cartella Progetto va all'interno della
+cartella xampp -> htdocs. Aprire xampp e avviare i server MySQL e Apache. A questo punto digitare 127.0.0.1/Progetto/ (oppure localhost/Progetto/) nel browser.
+
+Una volta nella homepage aprire la navbar laterale e scegliere una delle opzioni disponibili.
+
+HOME: rimanda alla home del sito
+
+LOGIN (login per accedere all'interfaccia utente) username=user  password = password in questa sezione è anche possibile registrarsi.
+LOGIN ADMIN (login per accedere all'interfaccia admin) username=admin password=password
+
+CHI SIAMO: sezione dedicata alla descrizione delle attività del centro di formazione.
+
+CONTATTI: sezione con social e numeri di telefono.

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Systems Consulting - Centro di Formazione</title>
+    <link rel="icon" type="image/x-icon" href="Favicon.jpg">
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+
+<body>
+  
+
+
+  <div id="mySidebar" class="sidebar">
+        <a href="Home.html">Home</a>        
+        <a href="LoginRegistrazione.php">Login</a>         
+        <a href="LoginAdmin.php">Login Admin</a>
+        <a href="Chisiamo.html">Chi Siamo</a>
+        <a href="Contatti.html">Contatti</a>
+
+  </div>
+  
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">&#9776; Scopri di Più</button>
+    <h1>Future Systems Consulting</h1>
+  </div>
+
+  <script>
+    function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Setta le dimensioni della sidebar quando premo per chiudere */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+  </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+Configuration	ProgettoGruppo27
+STM32CubeMX 	6.15.0
+Date	07/19/2026
+MCU	STM32F303VCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN2 Single-ended	ADC1_IN2	PA1
+ADC1	IN3 Single-ended	ADC1_IN3	PA2
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM3	PWM Generation CH2	TIM3_CH2	PB5
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+23	PA0	GPIO_EXTI0	PIN user button
+24	PA1	ADC1_IN2	PIN fotoresistore
+25	PA2	ADC1_IN3	PIN sensore temperatura
+40	PE9	GPIO_Output	LED mod notte
+43	PE12	GPIO_Output	LED mod giorno 2
+44	PE13	GPIO_Output	LED mod giorno 1
+45	PE14	GPIO_Output	LED mod giorno 3
+81	PD0	GPIO_Output	
+82	PD1	GPIO_Output	
+83	PD2	GPIO_Output	
+84	PD3	GPIO_Output	
+85	PD4	GPIO_Input	
+86	PD5	GPIO_Input	
+87	PD6	GPIO_Input	
+88	PD7	GPIO_Input	
+91	PB5	TIM3_CH2	PIN Servomotore
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN2 Single-ended	ADC1_IN2	PA1
+ADC1	IN3 Single-ended	ADC1_IN3	PA2
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM3	PWM Generation CH2	TIM3_CH2	PB5
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+23	PA0	GPIO_EXTI0	PIN user button
+24	PA1	ADC1_IN2	PIN fotoresistore
+25	PA2	ADC1_IN3	PIN sensore temperatura
+40	PE9	GPIO_Output	LED mod notte
+43	PE12	GPIO_Output	LED mod giorno 2
+44	PE13	GPIO_Output	LED mod giorno 1
+45	PE14	GPIO_Output	LED mod giorno 3
+81	PD0	GPIO_Output	
+82	PD1	GPIO_Output	
+83	PD2	GPIO_Output	
+84	PD3	GPIO_Output	
+85	PD4	GPIO_Input	
+86	PD5	GPIO_Input	
+87	PD6	GPIO_Input	
+88	PD7	GPIO_Input	
+91	PB5	TIM3_CH2	PIN Servomotore
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ProgettoGruppo27
+Project Folder : C:\Users\anton\STM32CubeIDE\workspace_1.19.0\Antonio
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F3 V1.11.6
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

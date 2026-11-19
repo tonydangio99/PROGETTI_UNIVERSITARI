@@ -1,0 +1,117 @@
+*{
+    margin:0 auto;
+    font-family: Verdana, sans-serif;
+}
+
+#testo{
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    margin-top: 70px;
+    padding-bottom: 15px;
+    
+}
+
+#tabs{
+
+    background: rgb(128,128,128);
+    background: linear-gradient(90deg, rgba(128,128,128,1) 0%, rgba(255,255,255,1) 10%, rgba(128,128,128,1) 100%);
+    width: 99%;
+    margin-right: 6px;
+    border-bottom: 5px ridge rgba(128,128,128,1);
+    position: sticky;
+    bottom: 0;
+}
+
+
+#laterale{
+    background: rgb(128,128,128);
+    background: linear-gradient(90deg, rgba(128,128,128,1) 0%, rgba(255,251,223,1) 50%, rgba(128,128,128,1) 100%);
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    top: 0;
+    margin-bottom: 2px;
+}
+
+
+li{
+    margin-right: 15vh;
+    margin-left: 15vh;
+    margin-top: 40px;
+    position: right;
+    flex-direction: right;
+}
+
+body{
+    background-color: darkgray;
+    background-image: url(https://pbs.twimg.com/media/E-3JY-CXIAMUkNW?format=jpg&name=large);
+    background-size:cover;
+    background-attachment: scroll;
+    background-attachment: fixed;
+}
+
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - cambiata tramite js */
+  position: fixed;
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; /* velocità della transizione */
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* quando ci passo sopra cambia colore */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* posizione e stile del bottone per chiudere la navbar */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Il bottone per aprire la navbar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: rgb(85, 85, 85);
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
