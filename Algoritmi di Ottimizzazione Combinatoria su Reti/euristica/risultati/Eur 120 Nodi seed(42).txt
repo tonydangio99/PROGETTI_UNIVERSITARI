@@ -1,0 +1,48 @@
+--- INIZIO EURISTICA: TRUCK FIRST, DRONE SECOND ---
+Stato Iniziale (100% al Camion) -> Camion: 402.00 min | Droni: 0.00 min | Makespan: 402.00 min
+Iterazione 1: Spostato Cliente 95 ai Droni. Nuovo Makespan = 387.21 min
+Iterazione 2: Spostato Cliente 83 ai Droni. Nuovo Makespan = 379.17 min
+Iterazione 3: Spostato Cliente 114 ai Droni. Nuovo Makespan = 376.35 min
+Iterazione 4: Spostato Cliente 75 ai Droni. Nuovo Makespan = 373.88 min
+Iterazione 5: Spostato Cliente 50 ai Droni. Nuovo Makespan = 371.51 min
+Iterazione 6: Spostato Cliente 22 ai Droni. Nuovo Makespan = 369.16 min
+Iterazione 7: Spostato Cliente 38 ai Droni. Nuovo Makespan = 367.10 min
+Iterazione 8: Spostato Cliente 81 ai Droni. Nuovo Makespan = 353.06 min
+Iterazione 9: Spostato Cliente 53 ai Droni. Nuovo Makespan = 348.99 min
+Iterazione 10: Spostato Cliente 111 ai Droni. Nuovo Makespan = 347.03 min
+Iterazione 11: Spostato Cliente 73 ai Droni. Nuovo Makespan = 345.13 min
+Iterazione 12: Spostato Cliente 71 ai Droni. Nuovo Makespan = 343.71 min
+Iterazione 13: Spostato Cliente 6 ai Droni. Nuovo Makespan = 342.42 min
+Iterazione 14: Spostato Cliente 41 ai Droni. Nuovo Makespan = 341.18 min
+Iterazione 15: Spostato Cliente 14 ai Droni. Nuovo Makespan = 340.02 min
+Iterazione 16: Spostato Cliente 94 ai Droni. Nuovo Makespan = 335.85 min
+Iterazione 17: Spostato Cliente 58 ai Droni. Nuovo Makespan = 334.90 min
+Iterazione 18: Spostato Cliente 17 ai Droni. Nuovo Makespan = 334.12 min
+Iterazione 19: Spostato Cliente 27 ai Droni. Nuovo Makespan = 333.58 min
+Iterazione 20: Spostato Cliente 66 ai Droni. Nuovo Makespan = 333.05 min
+Iterazione 21: Spostato Cliente 40 ai Droni. Nuovo Makespan = 332.71 min
+Iterazione 22: Spostato Cliente 52 ai Droni. Nuovo Makespan = 332.37 min
+Iterazione 23: Spostato Cliente 64 ai Droni. Nuovo Makespan = 332.06 min
+Iterazione 24: Spostato Cliente 60 ai Droni. Nuovo Makespan = 328.79 min
+Iterazione 25: Spostato Cliente 91 ai Droni. Nuovo Makespan = 328.60 min
+Iterazione 26: Spostato Cliente 15 ai Droni. Nuovo Makespan = 328.49 min
+Iterazione 27: Spostato Cliente 84 ai Droni. Nuovo Makespan = 327.57 min
+Iterazione 28: Spostato Cliente 97 ai Droni. Nuovo Makespan = 323.75 min
+Iterazione 29: Spostato Cliente 69 ai Droni. Nuovo Makespan = 323.47 min
+Iterazione 30: Spostato Cliente 49 ai Droni. Nuovo Makespan = 323.27 min
+Iterazione 31: Spostato Cliente 80 ai Droni. Nuovo Makespan = 323.20 min
+
+============================================================
+SOLUZIONE EURISTICA TROVATA in 2.2274 secondi!
+============================================================
+Makespan Globale Finale: 323.20 min
+
+--- PERCORSO DEL CAMION FINALIZZATO ---
+Il camion visita 89 clienti.
+>> Tempo totale Camion: 323.20 min
+
+--- ASSEGNAZIONI DEI DRONI FINALIZZATE ---
+Drone 1 serve 16 clienti.
+>> Tempo totale Drone 1: 318.58 min
+Drone 2 serve 15 clienti.
+>> Tempo totale Drone 2: 316.29 min

@@ -1,0 +1,56 @@
+============================================================
+OTTIMO TROVATO! Makespan (Tempo rientro ultimo veicolo): 190.61 min
+============================================================
+Tempo di calcolo Gurobi: 475.4030 secondi
+
+--- PERCORSO DEL CAMION ---
+Camion: Nodo 0 -> Nodo 53 (Tempo: 7.08 min)
+Camion: Nodo 53 -> Nodo 28 (Tempo: 2.90 min)
+Camion: Nodo 28 -> Nodo 31 (Tempo: 6.10 min)
+Camion: Nodo 31 -> Nodo 10 (Tempo: 8.46 min)
+Camion: Nodo 10 -> Nodo 43 (Tempo: 4.31 min)
+Camion: Nodo 43 -> Nodo 55 (Tempo: 8.09 min)
+Camion: Nodo 55 -> Nodo 26 (Tempo: 6.41 min)
+Camion: Nodo 26 -> Nodo 37 (Tempo: 2.69 min)
+Camion: Nodo 37 -> Nodo 45 (Tempo: 16.29 min)
+Camion: Nodo 45 -> Nodo 39 (Tempo: 3.22 min)
+Camion: Nodo 39 -> Nodo 13 (Tempo: 10.19 min)
+Camion: Nodo 13 -> Nodo 51 (Tempo: 6.48 min)
+Camion: Nodo 51 -> Nodo 21 (Tempo: 0.44 min)
+Camion: Nodo 21 -> Nodo 33 (Tempo: 4.27 min)
+Camion: Nodo 33 -> Nodo 12 (Tempo: 5.85 min)
+Camion: Nodo 12 -> Nodo 9 (Tempo: 1.72 min)
+Camion: Nodo 9 -> Nodo 25 (Tempo: 3.22 min)
+Camion: Nodo 25 -> Nodo 59 (Tempo: 5.46 min)
+Camion: Nodo 59 -> Nodo 3 (Tempo: 5.13 min)
+Camion: Nodo 3 -> Nodo 34 (Tempo: 3.14 min)
+Camion: Nodo 34 -> Nodo 7 (Tempo: 1.98 min)
+Camion: Nodo 7 -> Nodo 47 (Tempo: 4.97 min)
+Camion: Nodo 47 -> Nodo 20 (Tempo: 1.95 min)
+Camion: Nodo 20 -> Nodo 36 (Tempo: 3.93 min)
+Camion: Nodo 36 -> Nodo 1 (Tempo: 3.32 min)
+Camion: Nodo 1 -> Nodo 42 (Tempo: 4.29 min)
+Camion: Nodo 42 -> Nodo 30 (Tempo: 3.56 min)
+Camion: Nodo 30 -> Nodo 46 (Tempo: 1.23 min)
+Camion: Nodo 46 -> Nodo 32 (Tempo: 2.46 min)
+Camion: Nodo 32 -> Nodo 23 (Tempo: 7.51 min)
+Camion: Nodo 23 -> Nodo 54 (Tempo: 1.53 min)
+Camion: Nodo 54 -> Nodo 16 (Tempo: 1.25 min)
+Camion: Nodo 16 -> Nodo 57 (Tempo: 1.40 min)
+Camion: Nodo 57 -> Nodo 5 (Tempo: 7.65 min)
+Camion: Nodo 5 -> Nodo 4 (Tempo: 0.77 min)
+Camion: Nodo 4 -> Nodo 56 (Tempo: 1.74 min)
+Camion: Nodo 56 -> Nodo 18 (Tempo: 5.44 min)
+Camion: Nodo 18 -> Nodo 27 (Tempo: 2.27 min)
+Camion: Nodo 27 -> Nodo 24 (Tempo: 1.37 min)
+Camion: Nodo 24 -> Nodo 29 (Tempo: 5.07 min)
+Camion: Nodo 29 -> Nodo 49 (Tempo: 0.96 min)
+Camion: Nodo 49 -> Nodo 48 (Tempo: 5.28 min)
+Camion: Nodo 48 -> Nodo 61 (Tempo: 9.22 min)
+>> Tempo totale Camion: 190.61 min
+
+--- ASSEGNAZIONI DEI DRONI ---
+Drone 1 serve: Cliente 2 (27.96 min), Cliente 6 (21.75 min), Cliente 11 (29.46 min), Cliente 15 (26.43 min), Cliente 19 (14.12 min), Cliente 40 (13.56 min), Cliente 41 (20.39 min), Cliente 44 (29.45 min), Cliente 58 (5.85 min)
+>> Tempo totale Drone 1: 188.96 min
+Drone 2 serve: Cliente 8 (19.55 min), Cliente 14 (16.80 min), Cliente 17 (14.71 min), Cliente 22 (29.91 min), Cliente 35 (14.24 min), Cliente 38 (18.17 min), Cliente 50 (28.96 min), Cliente 52 (29.14 min), Cliente 60 (7.90 min)
+>> Tempo totale Drone 2: 179.37 min

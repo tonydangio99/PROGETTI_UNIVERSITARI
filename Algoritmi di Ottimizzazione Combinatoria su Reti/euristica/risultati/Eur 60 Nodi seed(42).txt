@@ -1,0 +1,33 @@
+--- INIZIO EURISTICA: TRUCK FIRST, DRONE SECOND ---
+Stato Iniziale (100% al Camion) -> Camion: 279.36 min | Droni: 0.00 min | Makespan: 279.36 min
+Iterazione 1: Spostato Cliente 8 ai Droni. Nuovo Makespan = 269.65 min
+Iterazione 2: Spostato Cliente 2 ai Droni. Nuovo Makespan = 260.06 min
+Iterazione 3: Spostato Cliente 22 ai Droni. Nuovo Makespan = 255.82 min
+Iterazione 4: Spostato Cliente 14 ai Droni. Nuovo Makespan = 250.52 min
+Iterazione 5: Spostato Cliente 38 ai Droni. Nuovo Makespan = 246.28 min
+Iterazione 6: Spostato Cliente 44 ai Droni. Nuovo Makespan = 242.81 min
+Iterazione 7: Spostato Cliente 49 ai Droni. Nuovo Makespan = 240.95 min
+Iterazione 8: Spostato Cliente 53 ai Droni. Nuovo Makespan = 239.73 min
+Iterazione 9: Spostato Cliente 15 ai Droni. Nuovo Makespan = 238.72 min
+Iterazione 10: Spostato Cliente 35 ai Droni. Nuovo Makespan = 237.70 min
+Iterazione 11: Spostato Cliente 40 ai Droni. Nuovo Makespan = 237.07 min
+Iterazione 12: Spostato Cliente 19 ai Droni. Nuovo Makespan = 231.76 min
+Iterazione 13: Spostato Cliente 41 ai Droni. Nuovo Makespan = 224.63 min
+Iterazione 14: Spostato Cliente 11 ai Droni. Nuovo Makespan = 223.71 min
+Iterazione 15: Spostato Cliente 27 ai Droni. Nuovo Makespan = 223.17 min
+Iterazione 16: Spostato Cliente 6 ai Droni. Nuovo Makespan = 223.16 min
+
+============================================================
+SOLUZIONE EURISTICA TROVATA in 0.2138 secondi!
+============================================================
+Makespan Globale Finale: 223.16 min
+
+--- PERCORSO DEL CAMION FINALIZZATO ---
+Il camion visita 44 clienti.
+>> Tempo totale Camion: 223.16 min
+
+--- ASSEGNAZIONI DEI DRONI FINALIZZATE ---
+Drone 1 serve 8 clienti.
+>> Tempo totale Drone 1: 172.76 min
+Drone 2 serve 8 clienti.
+>> Tempo totale Drone 2: 172.63 min

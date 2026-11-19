@@ -1,0 +1,26 @@
+============================================================
+OTTIMO TROVATO! Makespan (Tempo rientro ultimo veicolo): 128.66 min
+============================================================
+Tempo di calcolo Gurobi: 2.7830 secondi
+
+--- PERCORSO DEL CAMION ---
+Camion: Nodo 0 -> Nodo 10 (Tempo: 20.44 min)
+Camion: Nodo 10 -> Nodo 4 (Tempo: 24.28 min)
+Camion: Nodo 4 -> Nodo 5 (Tempo: 0.77 min)
+Camion: Nodo 5 -> Nodo 18 (Tempo: 7.50 min)
+Camion: Nodo 18 -> Nodo 16 (Tempo: 6.44 min)
+Camion: Nodo 16 -> Nodo 1 (Tempo: 15.89 min)
+Camion: Nodo 1 -> Nodo 20 (Tempo: 6.33 min)
+Camion: Nodo 20 -> Nodo 7 (Tempo: 6.77 min)
+Camion: Nodo 7 -> Nodo 3 (Tempo: 4.43 min)
+Camion: Nodo 3 -> Nodo 9 (Tempo: 9.91 min)
+Camion: Nodo 9 -> Nodo 12 (Tempo: 1.72 min)
+Camion: Nodo 12 -> Nodo 13 (Tempo: 10.74 min)
+Camion: Nodo 13 -> Nodo 21 (Tempo: 13.44 min)
+>> Tempo totale Camion: 128.66 min
+
+--- ASSEGNAZIONI DEI DRONI ---
+Drone 1 serve: Cliente 2 (27.96 min), Cliente 8 (19.55 min), Cliente 11 (29.46 min), Cliente 15 (26.43 min), Cliente 19 (14.12 min)
+>> Tempo totale Drone 1: 117.51 min
+Drone 2 serve: Cliente 6 (21.75 min), Cliente 14 (16.80 min), Cliente 17 (14.71 min)
+>> Tempo totale Drone 2: 53.25 min
